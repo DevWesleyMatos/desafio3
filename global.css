@@ -8,7 +8,10 @@ body{
    margin: 0 auto;
    padding: 2.5rem;
    font-size: 15px;
+   background-image: url('images/bg-pattern-top-desktop.svg');
 }
+
+
 
 .card1{
     display: flex;
@@ -29,14 +32,59 @@ body{
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
+    line-height: 1.7rem;
 }
 
 .text2{
     padding-top: 1rem;
+    line-height: 130%;
 }
+
+.avaliação{
+width: 40%;
+display: flex;
+justify-content: flex-end;
+background-color: aquamarine;
+}
+
+
+.avaliação ul{
+    list-style-type: none
+}
+.avaliação {
+    list-style-type: none; /* Remove os marcadores de lista */
+    padding: 0; /* Remove o preenchimento padrão */
+    margin: 0; /* Remove margens padrão */
+}
+
+.avaliação li {
+    background-image: url('images/icon-star.svg'); /* URL da sua imagem */
+    background-repeat: repeat-x; /* Repetir a imagem apenas na direção horizontal */
+    background-size: 8px auto; /* Tamanho da imagem (largura x altura) */
+    padding-left: ; /* Espaço para a repetição da imagem (32px * 4) */
+    margin-bottom: 10px; /* Espaço entre cada item de avaliação */
+    line-height: 1.5; /* Altura da linha para alinhar o texto verticalmente */
+    position: relative; /* Posição relativa para que o texto possa ser posicionado */
+}
+
+.avaliação li p {
+    position: absolute; /* Posicionamento absoluto */
+    left: 0; /* Alinhar o texto à esquerda */
+    top: 0; /* Alinhar o texto ao topo */
+}
+
+.av2{
+
+}
+
+.av3{
+
+}
+
+
 .card2{
   display: flex;
-  
+  padding-top: 5rem;
 }
 .item1{
     margin: 10px 50px 20px 0;
@@ -45,7 +93,7 @@ body{
     padding: 2rem;
     justify-content: center;
     align-items: center;
-    border-radius: 13px;
+    border-radius: 10px;
     line-height: 130%;
 }
 
@@ -60,7 +108,7 @@ body{
     padding: 2rem;
     justify-content: center;
     align-items: center;
-    border-radius: 13px;
+    border-radius: 10px;
     line-height: 130%;
 }
 
@@ -75,7 +123,7 @@ body{
     padding: 2rem;
     justify-content: center;
     align-items: center;
-    border-radius: 13px;
+    border-radius: 10px;
     line-height: 130%;
 }
 .item3 P{
