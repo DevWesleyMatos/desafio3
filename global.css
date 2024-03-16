@@ -9,6 +9,8 @@ body{
    padding: 2.5rem;
    font-size: 15px;
    background-image: url('images/bg-pattern-top-desktop.svg');
+   max-width:  80%;
+   max-height: 90%;
 }
 
 
@@ -41,53 +43,85 @@ body{
 }
 
 .avaliação{
-width: 40%;
+width: 60%;    
 display: flex;
+align-content: flex-end;
 justify-content: flex-end;
-background-color: aquamarine;
-}
+margin-top: 1.5rem;
 
+}
+.avaliação img{
+    width: 16px ;
+    background-size: 100px 100%;
+    padding-right: 0.4rem;
+}
 
 .avaliação ul{
     list-style-type: none
 }
-.avaliação {
-    list-style-type: none; /* Remove os marcadores de lista */
-    padding: 0; /* Remove o preenchimento padrão */
-    margin: 0; /* Remove margens padrão */
+.avaliação li{
+    padding-left: 3rem;
 }
 
-.avaliação li {
-    background-image: url('images/icon-star.svg'); /* URL da sua imagem */
-    background-repeat: repeat-x; /* Repetir a imagem apenas na direção horizontal */
-    background-size: 8px auto; /* Tamanho da imagem (largura x altura) */
-    padding-left: ; /* Espaço para a repetição da imagem (32px * 4) */
-    margin-bottom: 10px; /* Espaço entre cada item de avaliação */
-    line-height: 1.5; /* Altura da linha para alinhar o texto verticalmente */
-    position: relative; /* Posição relativa para que o texto possa ser posicionado */
+.avaliação p{
+    font-family: "League Spartan", sans-serif;
+    color:hsl(300, 43%, 22%);
+    line-height: 130%;
 }
-
-.avaliação li p {
-    position: absolute; /* Posicionamento absoluto */
-    left: 0; /* Alinhar o texto à esquerda */
-    top: 0; /* Alinhar o texto ao topo */
+.av1{
+    background-color: var(--Light-Grayish-Magenta) ;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color:#f7f2f8;
+    margin-bottom: 20px ;
+    padding: 15px;
+    border-radius: 10px;
+    width: 310px; 
+    height: 16px;
+    margin-right: 8rem;
 }
 
 .av2{
-
+    background-color: var(--Light-Grayish-Magenta) ;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color:#f7f2f8;
+    margin-bottom: 20px ;
+    padding: 15px;
+    border-radius: 10px;
+    width: 310px; 
+    height: 16px;
+    margin-left: 4rem;
+    margin-right: 4rem;
 }
 
 .av3{
+    background-color: var(--Light-Grayish-Magenta) ;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color:#f7f2f8;
+    margin-bottom: 20px ;
+    padding: 15px;
+    border-radius: 10px;
+    width: 310px; 
+    height: 16px;
+    margin-left: 8rem;
+}
 
+.img-av{
+    padding-right: 1rem;
 }
 
 
 .card2{
   display: flex;
-  padding-top: 5rem;
+  padding-top: 3rem;
 }
 .item1{
-    margin: 10px 50px 20px 0;
+    margin: 25px 25px 10px 0px;
     background-color: hsl(300, 43%, 22%);
     color:hsl(0, 0%, 100%) ;
     padding: 2rem;
@@ -95,6 +129,22 @@ background-color: aquamarine;
     align-items: center;
     border-radius: 10px;
     line-height: 130%;
+    width: 80%; 
+    height: 80%;
+}
+.cabeçalho1{
+    display: flex;
+}
+.cabeçalho1 img{
+    
+    border-radius: 50%;
+}
+.text-cabeçalho1{
+    padding-left: 1rem;
+    margin-top: 1rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
 }
 
 .item1 P{
@@ -102,7 +152,7 @@ background-color: aquamarine;
 }
 
 .item2{
-    margin: 30px 50px 20px;
+    margin: 40px 25px 20px;
     background-color: hsl(300, 43%, 22%);
     color:hsl(0, 0%, 100%) ;
     padding: 2rem;
@@ -110,6 +160,8 @@ background-color: aquamarine;
     align-items: center;
     border-radius: 10px;
     line-height: 130%;
+    width: 80%; 
+    height: 80%;
 }
 
 .item2 P{
@@ -117,7 +169,7 @@ background-color: aquamarine;
 }
 
 .item3{
-    margin: 60px 0 20px 50px;
+    margin: 60px 0 3px 50px;
     background-color: hsl(300, 43%, 22%);
     color:hsl(0, 0%, 100%) ;
     padding: 2rem;
@@ -125,6 +177,8 @@ background-color: aquamarine;
     align-items: center;
     border-radius: 10px;
     line-height: 130%;
+    width: 80%; 
+    height: 80%;
 }
 .item3 P{
     padding-top: 2rem;
