@@ -164,6 +164,22 @@ margin-top: 1.5rem;
     height: 80%;
 }
 
+
+.cabeçalho2{
+    display: flex;
+}
+.cabeçalho2 img{
+    
+    border-radius: 50%;
+}
+.text-cabeçalho2{
+    padding-left: 1rem;
+    margin-top: 1rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+}
+
 .item2 P{
     padding-top: 2rem;
 }
@@ -180,6 +196,21 @@ margin-top: 1.5rem;
     width: 80%; 
     height: 80%;
 }
+.cabeçalho3{
+    display: flex;
+}
+.cabeçalho3 img{
+    
+    border-radius: 50%;
+}
+.text-cabeçalho3{
+    padding-left: 1rem;
+    margin-top: 1rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+}
+
 .item3 P{
     padding-top: 2rem;
 }
