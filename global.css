@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: "League Spartan", sans-serif;
 }
 
 .principal{
@@ -119,6 +120,7 @@ margin-top: 1.5rem;
 .card2{
   display: flex;
   padding-top: 2rem;
+  gap: 1rem;
 }
 
 .subtitle{
@@ -126,14 +128,14 @@ margin-top: 1.5rem;
 }
 
 .item1{
-    margin: 25px 15x 10px 0px;
+    transform: translatey(0);
     background-color: hsl(300, 43%, 22%);
     color:hsl(0, 0%, 100%) ;
     padding: 1.5rem;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    line-height: 130%;
+    line-height: 1rem;
     max-width: 17rem; 
     max-height: 9rem;
 }
@@ -161,17 +163,18 @@ margin-top: 1.5rem;
     margin: 0 auto;
     width: 100%;
     text-align: justify;
+    font-size: small;
 }
 
 .item2{
-    margin: 30px 8px 20px 15px;
+    transform: translatey(20px);
     background-color: hsl(300, 43%, 22%);
     color:hsl(0, 0%, 100%) ;
     padding: 1.5rem;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    line-height: 130%;
+    line-height: 1rem;
     max-width: 17rem; 
     max-height: 9rem;
 }
@@ -200,17 +203,18 @@ margin-top: 1.5rem;
     margin: 0 auto;
     width: 100%;
     text-align: justify;
+    font-size: small;
 }
 
 .item3{
-    margin: 60px 0 15px 8px;
+    transform: translatey(40px);
     background-color: hsl(300, 43%, 22%);
     color:hsl(0, 0%, 100%) ;
     padding: 1.5rem;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    line-height: 130%;
+    line-height: 1rem;
     max-width: 17rem; 
     max-height: 9rem;
 }
@@ -237,6 +241,7 @@ margin-top: 1.5rem;
     margin: 0 auto;
     width: 100%;
     text-align: justify;
+    font-size: small;
 }
 
 .attribution a{
